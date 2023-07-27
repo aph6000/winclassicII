@@ -1,0 +1,149 @@
+/* Titlebars (Windows only) */
+/* Delete if you use Native BD titlebar or on Web */
+/* From #css-snippets in the BetterDiscord server */
+
+/*Variables*/
+
+.platform-win {
+    --classic-titlebar-active:linear-gradient(90deg,var(--ActiveTitle),var(--GradientActiveTitle));
+    --classic-titlebar-inactive:linear-gradient(90deg,var(--InactiveTitle),var(--GradientInactiveTitle));
+    --classic-titlebar-wordmark-content:'Discord';
+    --classic-app-padding:3px;
+}
+
+
+/*Source*/
+
+.typeWindows-2-g3UY {
+    position:relative;
+    display:flex;
+    align-items:center;
+    margin-top:0;
+    top:0;
+    height:var(--CaptionHeight);
+    padding:3px 2px 3px 3px;
+    box-sizing:border-box;
+    z-index:9999;
+}
+
+.winButton-3UMjdg {
+    top:unset;
+    width:16px;
+    height:14px;
+    cursor:default;
+  background-color: var(--ButtonFace) !important;
+  box-shadow: var(--border-raised-outer), var(--border-raised-inner);
+    background-repeat: no-repeat;
+}
+
+.winButton-3UMjdg:active {
+  box-shadow: var(--border-sunken-outer), var(--border-sunken-inner);
+}
+
+/* Close button */
+.winButtonClose-3Q8ZH5 {
+    margin-left:2px;
+}
+
+.winButtonClose-3Q8ZH5::after {
+    content: "r";
+    font-family: Marlett;
+    font-size: 10px;
+    margin-top: -1px;
+    color: var(--3DObjectsText);
+}
+
+.winButtonClose-3Q8ZH5:active::after {
+    margin-top: 1px;
+    margin-left: 2px;
+}
+/* End of close button */
+
+/* Maximize button */
+.winButton-3UMjdg:nth-last-child(2)::after {
+    content: "1";
+    font-family: Marlett;
+    font-size: 11px;
+    margin-top: -1px;
+    color: var(--3DObjectsText);
+}
+
+.winButton-3UMjdg:nth-last-child(2):active::after {
+    margin-top: 1px;
+    margin-left: 2px;
+}
+/* End of maximize button */
+
+/* Minimize button */
+.winButton-3UMjdg:last-child::after {
+    content: "0";
+    font-family: Marlett;
+    font-size: 10px;
+    margin-top: -1px;
+    color: var(--3DObjectsText);
+}
+
+.winButton-3UMjdg:last-child:active::after {
+    margin-top: 1px;
+    margin-left: 2px;
+}
+/* End of minimize button */
+
+.winButton-3UMjdg svg {
+    display:none;
+}
+
+.wordmarkWindows-2dq6rw {
+    top:0;
+    left:0;
+    padding:0 3px;
+    box-sizing:border-box;
+    width:100%;
+    height:var(--CaptionHeight);
+    display:flex;
+    align-items:center;
+    background-image:var(--classic-titlebar-inactive);
+}
+
+.app-focused .wordmarkWindows-2dq6rw {
+    background-image:var(--classic-titlebar-active);
+}
+
+.app-focused .wordmarkWindows-2dq6rw::before {
+   color: var(--TitleText);
+}
+
+.wordmarkWindows-2dq6rw::before {
+    content:var(--classic-titlebar-wordmark-content);
+    height:var(--CaptionHeight);
+    z-index:1;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAADAFBMVEUBAAAAAAAAgACAgAAAAICAAIAAgICAgIDAwMD/AAAA/wD//wAAAP//AP8A//////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABJRqB8AAAAAXRSTlMAQObYZgAAAGRJREFUeNplj1EKACEIRJWEPvb+R92PoGid0WKjKGleNqoKljLOdVV5CF4gBxqSaDr4aZAAXYwHALrk+3AC0GuCZgE8oVVsT0nQrMjwxA1kmyyP+EIPlGVFxtXH0djV+j3cOf4H1W4rFwi5QP0AAAAASUVORK5CYII=);
+    background-repeat: no-repeat;
+    position:relative;
+    font-family: var(--CaptionFont);
+    font-size: var(--CaptionFont-text-size);
+    font-weight:700;
+    color: var(--InactiveTitleText);
+    padding:0 18px;
+    line-height:var(--CaptionHeight);
+}
+
+.wordmarkWindows-2dq6rw svg {
+    display:none;
+}
+
+.platform-win #app-mount,
+.platform-win .backdrop-2ByYRN,
+.platform-win .backdropWithLayer-3_uhz4 {
+    padding:var(--classic-app-padding);
+    box-sizing:border-box;
+    background-color: var(--ButtonFace);
+    box-shadow: var(--border-window-outer), var(--border-window-inner);
+}
+
+.platform-win .bg-1QIAus,
+.platform-win .layer-86YKbF,
+.platform-win .standardSidebarView-E9Pc3j {
+    top:0;
+    padding-top:0;
+}

@@ -1,0 +1,24 @@
+/* Windows Default color scheme */
+:root {
+  /* Color */
+  --ButtonFace: rgb(192, 192, 192);
+  --ButtonHilight: rgb(255, 255, 255);
+  --ButtonLight: rgb(223, 223, 223);
+  --ButtonShadow: rgb(128, 128, 128);
+  --ButtonDkShadow: rgb(0, 0, 0);
+  --ActiveTitle: rgb(0, 0, 128);
+  --GradientActiveTitle: rgb(16, 132, 208);
+  --InactiveTitle: rgb(128, 128, 128);
+  --GradientInactiveTitle: rgb(181, 181, 181);
+  --Link: rgb(0, 0, 255);
+  --HilightText: rgb(255, 255, 255);
+  --ButtonText: rgb(0, 0, 0);
+  --GrayText: rgb(128, 128, 128);
+  --TitleText: rgb(255, 255, 255);
+  --InactiveTitleText: rgb(192, 192, 192);
+  --Window: rgb(255, 255, 255);
+  --WindowText: rgb(0, 0, 0);
+  --Hilight:  rgb(0, 0, 128);
+  --InfoWindow: rgb(255, 255, 225);
+  --InfoText: rgb(0, 0, 0);
+  --3DObjectsText: rgb(0, 0, 0); 

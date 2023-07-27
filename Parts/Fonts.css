@@ -1,0 +1,18 @@
+:root {
+        --font-primary: var(--mainfont),"Microsoft Sans Serif",Tahoma,Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        --font-display: var(--mainfont),"Microsoft Sans Serif",Tahoma,Ginto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* You can use your own custom fonts inplace of Pixelated MS Sans Serif */
+
+/* Font settings */
+ --CaptionFont: "Pixelated MS Sans Serif";
+ --SmCaptionFont: "Pixelated MS Sans Serif";
+ --CaptionFont-text-size: 11px;
+ --mainfont: "Pixelated MS Sans Serif";
+ --mainfontsize: 11px;
+ --mainfontcolor: var(--ButtonText);
+ --mainfontselectedcolor: var(--HilightText);
+ --InfoWindow-font: "Pixelated MS Sans Serif";
+ --InfoWindow-size: 11px;
+}

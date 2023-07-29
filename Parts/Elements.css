@@ -1,0 +1,41 @@
+/* Classic Theme elements */
+/* 7/28/23 */
+
+/* Buttons */
+
+/* Gray buttons */
+.lookFilled-1H2Jvj.colorPrimary-2-Lusz, .lookFilled-1H2Jvj.colorPrimary-2-Lusz:hover {
+  box-sizing: border-box;
+  border: none;
+  background-color: var(--ButtonFace);
+  box-shadow: var(--border-raised-outer), var(--border-raised-inner);
+  border-radius: 0;
+  color: var(--ButtonText) !important;
+ /* Metric stuff */
+    min-height: 23px;
+    min-width: 75px;
+    padding: 0 12px;
+   height: 1px !important;
+    font-size: var(--mainfontsize) !important;
+    opacity: 1 !important;
+}
+
+/* active states */
+.lookFilled-1H2Jvj.colorPrimary-2-Lusz:active {
+  box-sizing: border-box;
+  border: none;
+  background: var(--ButtonFace);
+  box-shadow: var(--border-sunken-outer), var(--border-sunken-inner);
+  padding: 2px 11px 0 13px;
+  border-radius: 0;
+  color: var(--ButtonText) !important;
+}
+
+/* Checkboxes */
+
+/* Listviews */
+
+/* Settings pages */
+/* global */
+
+/* accounts */

@@ -1,3 +1,25 @@
+@font-face {
+    font-family: 'Marlett';
+    src: url('https://aph6000.github.io/discord-winclassic/assets/marlett.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+  font-family: "Pixelated MS Sans Serif";
+  src: url("https://aph6000.github.io/discord-winclassic/assets/old/MicrosoftSansSerif.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Pixelated MS Sans Serif";
+  src: url("https://aph6000.github.io/discord-winclassic/assets/old/mssansserifbold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
 :root {
         --font-primary: var(--mainfont),"Microsoft Sans Serif",Tahoma,Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;
         --font-display: var(--mainfont),"Microsoft Sans Serif",Tahoma,Ginto,"Helvetica Neue",Helvetica,Arial,sans-serif;

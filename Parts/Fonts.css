@@ -1,7 +1,7 @@
 :root {
         --font-primary: var(--mainfont),"Microsoft Sans Serif",Tahoma,Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;
         --font-display: var(--mainfont),"Microsoft Sans Serif",Tahoma,Ginto,"Helvetica Neue",Helvetica,Arial,sans-serif;
-}
+
 
 /* You can use your own custom fonts inplace of Pixelated MS Sans Serif */
 

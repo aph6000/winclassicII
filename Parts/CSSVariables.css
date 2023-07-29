@@ -1,4 +1,4 @@
-:root
+:root {
 /* Spacing */
   --element-spacing: 8px;
   --grouped-button-spacing: 4px;
@@ -85,3 +85,4 @@
   /* Groupboxes and separators */
   --groupbox: inset -1px -1px var(--ButtonHilight), inset -2px 1px var(--ButtonShadow), inset 1px -2px var(--ButtonShadow), inset 2px 2px var(--ButtonHilight);
   --separator: inset -1px -1px var(--ButtonHilight), inset -2px 2px var(--ButtonShadow);  
+}

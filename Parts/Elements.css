@@ -31,11 +31,37 @@
   color: var(--ButtonText) !important;
 }
 
+/* end of buttons */
+
+
+
 /* Checkboxes */
 
 /* Listviews */
 
 /* Settings pages */
 /* global */
+
+/* side bar */
+.sidebarRegionScroller-FXiQOh {
+background: var(--Window);
+box-shadow: var(--text-box-border);
+border: 9px solid var(--ButtonFace);
+}
+
+.side-2ur1Qk .item-3XjbnG {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    height: 17px !important;
+}
+
+.side-1lrxIh .item-2GWPIy {
+    padding: 0px 15px;
+}
+
+.sidebar-nqHbhN {
+    padding: 14px 6px 6px 2px;
+}
 
 /* accounts */

@@ -38,3 +38,22 @@
  --InfoWindow-font: "Pixelated MS Sans Serif";
  --InfoWindow-size: 11px;
 }
+
+/* Microsoft Sans Serif, 8pt bold */
+
+.eyebrow-1Shfyi, .heading-deprecated-12-normal-2QSQ4R {
+    font-size: var(--mainfontsize);
+    line-height: var(--mainfontsize);
+    text-transform: none;
+}
+
+.item-2GWPIy {
+    font-size: var(--mainfontsize);
+    line-height: var(--mainfontsize);
+}
+
+/* Microsoft Sans Serif, 8pt */
+.item-2GWPIy {
+    font-size: var(--mainfontsize);
+    line-height: var(--mainfontsize);
+}

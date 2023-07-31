@@ -86,3 +86,12 @@
   --groupbox: inset -1px -1px var(--ButtonHilight), inset -2px 1px var(--ButtonShadow), inset 1px -2px var(--ButtonShadow), inset 2px 2px var(--ButtonHilight);
   --separator: inset -1px -1px var(--ButtonHilight), inset -2px 2px var(--ButtonShadow);  
 }
+
+.theme-dark, .theme-light {
+    --background-primary: var(--Window);
+    --background-secondary: var(--ButtonFace);
+    --background-tertiary: var(--Window);
+    --text-normal: var(--ButtonText);
+    --text-muted: var(--GrayText);
+    --text-link: var(--Link);
+}

@@ -41,6 +41,9 @@
 
 /* Settings pages */
 /* global */
+.contentRegionScroller-2_GT_N {
+      background: var(--ButtonFace);
+}
 
 /* side bar */
 .sidebarRegionScroller-FXiQOh {
@@ -58,10 +61,50 @@ border: 9px solid var(--ButtonFace);
 
 .side-1lrxIh .item-2GWPIy {
     padding: 0px 15px;
+border-radius: 0px;
 }
 
 .sidebar-nqHbhN {
     padding: 14px 6px 6px 2px;
+}
+
+.item-2GWPIy {
+line-height: 17px;
+}
+
+.side-1lrxIh .themed-qqoYp3.selected-1sf9UK.item-2GWPIy, .topPill-2vcLsa .themed-qqoYp3.selected-1sf9UK.item-2GWPIy {
+background-color: var(--Hilight);
+color: var(--HilightText);
+}
+
+/* accounts */
+.accountProfileCard-lbN7n- {
+  box-sizing: border-box;
+  border: none;
+  background: var(--ButtonFace);
+  box-shadow: var(--border-raised-outer), var(--border-raised-inner);
+  border-radius: 0;
+}
+
+
+.settingsBanner-1eDJ5w {
+  box-sizing: border-box;
+  border: none;
+  background: var(--ButtonFace);
+  box-shadow: var(--border-raised-outer), var(--border-raised-inner);
+  border-radius: 0;
+}
+
+.background-3d_SjE {
+border: none;
+        background-color: #0000;
+    box-shadow: var(--groupbox);
+    border-radius: 0px;
+}
+
+.fieldList-in8WkP {
+    border-radius: 0px;
+    background-color: #0000;
 }
 
 /* accounts */
